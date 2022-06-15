@@ -9,7 +9,7 @@ pipeline {
     stage('Build') {
       steps {
         sh '''mkdir -p output
-generate-prc-rules endpoints/ output/policy.json'''
+              generate-prc-rules endpoints/ output/policy.json'''
         archiveArtifacts 'output/*.json'
       }
     }
