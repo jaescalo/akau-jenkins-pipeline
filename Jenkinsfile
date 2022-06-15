@@ -35,9 +35,9 @@ pipeline {
   }
   environment {
     POLICY_ID = '190112'
-    AKAMAI_CLIENT_TOKEN = 'akab-v7juchl7xu2vauaf-ruiqisbi7ubd2er2'
-    AKAMAI_CLIENT_SECRET = 'lCF/hmIILdzIjoxzaOUsydifXOtyxU4dFJ/LZj2y+E8='
-    AKAMAI_ACCESS_TOKEN = 'akab-nc5za7hn3wlofab7-3pzo5jqxcqvis737'
-    AKAMAI_HOST = 'akab-faicorz46bt5ji2l-gakc547teq3dgu7k.luna.akamaiapis.net'
+    AKAMAI_CLIENT_TOKEN = credentials('AKAU_AKAMAI_CLIENT_TOKEN')
+    AKAMAI_CLIENT_SECRET = credentials('AKAU_AKAMAI_CLIENT_SECRET')
+    AKAMAI_ACCESS_TOKEN = credentials('AKAU_AKAMAI_ACCESS_TOKEN')
+    AKAMAI_HOST = credentials('AKAU_AKAMAI_HOST')
   }
 }
