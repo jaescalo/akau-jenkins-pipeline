@@ -34,7 +34,7 @@ pipeline {
 
   }
   environment {
-    POLICY_ID = '190112'
+    POLICY_ID = '192295'
     AKAMAI_CLIENT_TOKEN = credentials('AKAU_AKAMAI_CLIENT_TOKEN')
     AKAMAI_CLIENT_SECRET = credentials('AKAU_AKAMAI_CLIENT_SECRET')
     AKAMAI_ACCESS_TOKEN = credentials('AKAU_AKAMAI_ACCESS_TOKEN')
